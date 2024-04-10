@@ -1,4 +1,4 @@
-var version = "1.3";
+var version = "1.4";
 var chars = [];
 var char = null;
 var vlTitle = "";
@@ -191,4 +191,6 @@ window.addEventListener(orientationEvent, function() {
 function alertOrientation() {
     alert("Attention! Page best viewed in landscape orientation and optimized for PC 2560 × 1600 and iPhone 13 Pro screens.")
     warned = true;
+    var video = document.getElementById('video-bg');
+    video.play();
 }
