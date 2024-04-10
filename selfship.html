@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>I am endeared by you, my love.</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="index_mobile.css">
+
+<script src="selfship_db.js"></script>
+<script src="selfship.js"></script>
+
+<body onLoad="appendVersion(); getTumblrUsername();">
+
+    <video autoplay playsinline muted loop id="video-bg">
+        <source id="video-src" src="" type="video/mp4">
+    </video>
+
+    <div id="main" class="main">
+        <div class="c1">
+            <div class="subtitle">Profile / Voice-Over / <span id="char-name">{Character}</span></div>
+            <div class="small-text">Greetings, <span id="user-name"></span>. Not you?</div>
+            <button id="change-username" onClick="changeTumblrUsername()">
+                <span class="material-symbols-outlined">settings</span>Change Tumblr username
+            </button>
+            <div id="vl-list"></div>
+        </div>
+
+        <div class="c2">
+            <!-- <button onclick="changeCharacter('prev')"><</button>
+            <div id="char-img"></div>
+            <button onclick="changeCharacter('next')">></button> -->
+        </div>
+
+        <div class="c3">
+
+            <div id="vl-title"></div>
+            <div id="vl-content"></div>
+
+            <div class="credits">
+                <div><a target=_blank href="https://genshin.hoyoverse.com/en/">Genshin Impact</a> (c) <a target=_blank href="https://www.hoyoverse.com/en-us/">Hoyoverse</a></div>
+                <div>Background Video from <a target=_blank href="https://genshin.honeyhunterworld.com/?lang=EN">Honey Impact</a> | <a href="https://www.youtube.com/watch?v=psDhNyBEyxI">YeaChan</a></div>
+            </div>
+        </div>
+
+        <div id="version"></div>
+    </div>
+
+</body>
+</html>

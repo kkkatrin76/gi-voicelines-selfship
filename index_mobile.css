@@ -1,0 +1,47 @@
+/* @media only screen and (max-width: 600px), (orientation: landscape) (pointer:none), (pointer:coarse) { */
+@media only screen and (min-device-width: 375px) and (max-device-width: 890px) and (orientation: landscape) {
+    html {
+        font-size: 0.7em;
+    }
+
+    #video-bg {
+        left: -22%;
+    }
+
+    .c1 {
+        padding: 20px 10px;
+        max-height: 86%;
+    }
+
+    .c1 .subtitle {
+        margin-bottom: 15px;
+    }
+
+    .c1 #vl-list .vl-title-inner {
+        padding: 8px 10px;
+    }
+
+    .c3 {
+        padding: 20px 20px 60px 40px;
+        font-size: 1.1em;
+    }
+
+    .c3 #vl-title {
+        margin-bottom: 18px;
+    }
+
+    .c3 #vl-content {
+        max-height: 78%;
+        min-height: 78%;
+    }
+
+    .credits {
+        font-size: 0.4em;
+    }
+
+    #version {
+        font-size: 0.1em;
+        left: 5px;
+        bottom: 5px;
+    }
+}

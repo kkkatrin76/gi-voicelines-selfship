@@ -1,0 +1,181 @@
+@font-face {
+    font-family: gifont;
+    src: url(zh-cn.ttf);
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    font-family: gifont;
+    height: 100%;
+    position: absolute;
+    width: 100vw;
+}
+
+button {
+    cursor: pointer;
+}
+
+#video-bg {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+}
+
+.c1 {
+    width: 30%;
+    padding: 40px 20px;
+}
+
+.c1 .subtitle {
+    color: rgb(205,178,130);
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+.c1 .small-text {
+    color: #bbb;
+    font-size: 0.8em;
+    margin: 0 0 5px 20px;
+}
+
+.c1 #user-name {
+    color: #e5e5e5;
+}
+
+.c1 #change-username {
+    cursor: pointer;
+    font-family: gifont;
+    border-radius: 20px;
+    background-color: rgb(235,229,217);
+    color: rgb(60,66,83);
+    padding: 10px 20px;
+    border: none;
+    font-size: 1em;
+    transition: 0.3s;
+    margin: 0 0 20px 20px;
+}
+.c1 #change-username:hover {
+    background-color: rgb(211, 196, 166);
+}
+.c1 #change-username .material-symbols-outlined {
+    vertical-align: bottom;
+    margin-right: 5px;
+    font-size: 1.3em;
+}
+
+.c1 #vl-list {
+    overflow: auto;
+    max-height: 90%;
+}
+
+.c1 #vl-list .vl-title-outer {
+    background-color: rgba(0,0,0,0.2);
+    padding: 2px;
+    margin-bottom: 4px;
+    transition: 0.5s;
+}
+
+.c1 #vl-list .vl-title-outer:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.c1 #vl-list .vl-title-inner {
+    background-color: rgba(0,0,0,0.2);
+    width: 100%;
+    border: solid 2px rgb(255 255 255 / 30%);
+    font-size: 1.2em;
+    font-family: gifont;
+    text-align: left;
+    color: #fff;
+    padding: 16px 20px;
+}
+
+.c2 {
+    display: flex;
+    width: 40%;
+}
+
+.c2 button {
+    background-color: rgba(0,0,0,0.2);
+    border: none;
+    height: fit-content;
+    margin: auto;
+    color: #fff;
+    font-family: 'gifont';
+    padding: 20px 15px;
+    transition: 0.5s;
+}
+
+.c2 button:hover {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.c2 #char-img {
+    width: 100%;
+}
+
+.c3 {
+    width: 30%;
+    padding: 70px 20px 60px 40px;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+.c3 #vl-title {
+    font-size: 1.25em;
+    margin-bottom: 25px;
+}
+
+.c3 #vl-content {
+    overflow: auto;
+    max-height: 90%;
+    min-height: 90%;
+    line-height: 1.4;
+}
+
+.credits {
+    bottom: 10px;
+    right: 10px;
+    color: #fff;
+    vertical-align: bottom;
+    font-size: 0.6em;
+    text-align: end;
+    position: fixed;
+}
+
+#version {
+    position: fixed;
+    font-size: 0.6em;
+    left: 10px;
+    bottom: 10px;
+    color: rgb(205,178,130);
+}
+
+a {
+    color: #ddd;
+    transition: 0.5s;
+}
+a:hover {
+    color: #fff;
+}
+a:visited {
+    color: #ddd;
+}
