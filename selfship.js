@@ -1,4 +1,4 @@
-var version = 1.2;
+var version = 1.3;
 var chars = [];
 var char = null;
 var vlTitle = "";
@@ -16,17 +16,26 @@ function capitalize(string) {
 }
 
 function getTumblrUsername(promptText) {
-    // Get and sent tumblrUsername
-    tumblrUsername = localStorage.getItem("tumblrUsername");
-    if (!tumblrUsername || tumblrUsername == undefined || tumblrUsername === "null") {
-        tumblrUsername = prompt(promptText ? promptText : "Please enter your Tumblr username:", `${tumblrUsername}`);
-        tumblrUsername = tumblrUsername.toLowerCase();
+    // Check if username included in url
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    let tusr = urlParams.get('tumblrUsername');
+
+    if (!tusr) {
+        // Get and sent tumblrUsername
+        tumblrUsername = localStorage.getItem("tumblrUsername");
         if (!tumblrUsername || tumblrUsername == undefined || tumblrUsername === "null") {
-            getTumblrUsername("Please enter a valid Tumblr username:");
-            return;
-        } else {
-            localStorage.setItem("tumblrUsername", tumblrUsername);
+            tumblrUsername = prompt(promptText ? promptText : "Please enter your Tumblr username:", `${tumblrUsername}`);
+            tumblrUsername = tumblrUsername.toLowerCase();
+            if (!tumblrUsername || tumblrUsername == undefined || tumblrUsername === "null") {
+                getTumblrUsername("Please enter a valid Tumblr username:");
+                return;
+            } else {
+                localStorage.setItem("tumblrUsername", tumblrUsername);
+            }
         }
+    } else {
+        tumblrUsername = tusr;
     }
 
     // Check if username is valid
@@ -37,6 +46,8 @@ function getTumblrUsername(promptText) {
         getTumblrUsername("Please enter a valid Tumblr username:");
         return;
     }
+
+    localStorage.setItem("tumblrUsername", tumblrUsername);
 
     // Alert orientation (has to be landscape)
     if(window.innerHeight > window.innerWidth) {
