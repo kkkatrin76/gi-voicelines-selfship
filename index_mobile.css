@@ -28,7 +28,7 @@
     }
 
     .c1 #vl-list {
-        overflow-y: scroll;
+        /* overflow-y: scroll; */
         -webkit-overflow-scrolling: touch;
     }
 

@@ -83,7 +83,7 @@ button {
 
 .c1 #vl-list {
     overflow: auto;
-    -webkit-overflow-scrolling: touch;
+    /* -webkit-overflow-scrolling: touch; */
     max-height: 90%;
 }
 
