@@ -182,7 +182,7 @@ const db = {
             content: `<p><i>'You bicker like an old married couple'</i>.... Is that how outsiders see it? How amusing.</p><p>...</p><p>......</p><p>Hm? Did you perhaps wish to drag out more comments from me? This relationship is between the two of us, and seeing as we're both content with what we have, I'm not sure why I should care about other people's views on it.</p>`,
         }]
     },
-    soleillune: {
+    soleillunne: {
         name: "Alyssa",
         foName: "kazuha",
         foVideoFile: "video/kazuha.mp4",
