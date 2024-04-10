@@ -82,7 +82,8 @@ button {
 }
 
 .c1 #vl-list {
-    overflow: auto;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
     max-height: 90%;
 }
 

@@ -29,8 +29,9 @@
 
     .c1 #vl-list {
         overflow: scroll;
+        -webkit-overflow-scrolling: touch;
     }
-    
+
     .c1 #vl-list .vl-title-inner {
         padding: 8px 10px;
     }
