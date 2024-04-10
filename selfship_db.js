@@ -224,7 +224,68 @@ const db = {
             content: `<p>'You're all I ever need'... To think I'll never find myself saying it so unironically until now, and with them, too...</p>`,
         }]
     },
+    "the-travelling-witch": {
+        name: "Holly",
+        foName: "tartaglia",
+        foVideoFile: "video/tartaglia.mp4",
+        voicelines: [{
+            title: `About Holly: Witch`,
+            content: `<p>Ahaha, of course you'd have heard of Holly, her potions and spells have made quite the waves across Teyvat, huh? It's only natural you'd want to know more about the mysterious witch but... sorry, my lips are sealed. Even if you manage to defeat me in battle, I'm not sharing. Then again, I guess there's one thing I can let you in on. While she tries her best to blend in and appear unassuming, I'd advise you not to try your luck against her. It won't end well for you. Calm waters are deep and all that...</p>`,
+        }, {
+            title: `About Holly: Our Relationship`,
+            content: `<p>Hm? Are Holly and I fighting? Did you hit your head or something?... Oh, you must have seen us sparing earlier. No no, I assure you it's all good between us. I just can't help test my strength against her before she gets absorbed in a new interest of hers again.<p>Hm, I should go check if she has already eaten today...</p><p>What, you're asking how often I've won against her already? Ah, c'mon, must you really embarrass a guy like that?</p>`,
+        }, {
+            title: `About Holly: Proposal`,
+            content: `<p><i>*sigh*</i> Isn't she just so pretty? I can't believe I get to call her my wife... Did you know how nervous I was to propose to her? I kept making sure my mother's ring hadn't fallen out of my pocket, scrubbed all night to wash off all the bloodstains on my clothes, made sure the underlings scout the area and gatekeep the whole vicinity so no one would be able to disturb usー Hey, waitー Traveler, where are you going?? I haven't even gotten to the best part yet!</p>`,
+        }]
+    },
 
+    "2broschlininahotub": {
+        name: "Bryo",
+        foName: "xiao",
+        foVideoFile: "video/xiao2.mp4",
+        voicelines: [{
+            title: `About Bryo: A verse`,
+            content: `<p>I wish we could hold this time in place. When I see into his head, I could see a million dreams that could change the world. His head is filled with the brightest colors and a heart that shines like the stars in the night sky.</p>`,
+        }, {
+            title: `About Bryo: Our Relationship`,
+            content: `<p>I've observed that mortals like to put on labels to everything, but the complexity of our dynamics isn't something one can describe with one or two words. To keep it simple, he is someone I swore to protect and cherish. That is all you need to know.</p>`,
+        }]
+    },
+    "mochinon-yah": {
+        name: "Mochi",
+        foName: "alhaitham",
+        foVideoFile: "video/alhaitham2.mp4",
+        voicelines: [{
+            title: `About Mochi: Nomnom?`,
+            content: `<p>Before you askー No, you can't eat her.</p><p>.... Paimon, wipe your drool. I was specifically informing you.</p>`,
+        }, {
+            title: `About Mochi: First Meeting`,
+            content: `<p>Mochi...? Ah, <i>Mochi</i>. She's my lover—so to speak, why do you ask? Heh. You're surprised? I find it very surprising as well. What do I mean by that? Well, I'd say you better ask her about our first meeting rather than asking me. She always says that I paint the occasion from a much better perspective than how it was. I don't believe her, though. It was a normal meeting on my end, albeit a little interesting.</p>`,
+        }, {
+            title: `About Mochi: Our Relationship`,
+            content: `<p>What of it? It's doing well for both me and her. We don't need the presence of another person entering our relationship, so back off if you have that idea in mind; not that she or I would accept anybody else anyway.</p>`,
+        }, {
+            title: `About Mochi: Love? Hate?`,
+            content: `<p>Hm? Ah, you overheard her, I suppose. Yes, she seems inclined to do that sometimes. A nonsensical behaviour, but one that I find endearing nonetheless.</p><p>The next time you hear her say <i>'Alhaitham, I hate you'</i> or <i>'Alhaitham is a dumdum'</i>, just nod along and let her prattle to her heart's content. It's amusing to watch her cheeks puff up just like her name.</p>`,
+        }]
+    },
+    "queen-belial": {
+        name: "Belial",
+        foName: "tartaglia",
+        foVideoFile: "video/tartaglia.mp4",
+        voicelines: [{
+            title: `About Belial: Good Joke`,
+            content: `<p>Oh, Comrade, how do you know that name? She isn't particularly well known by Outsiders. Hm? You ran into her on a commission and foolishly thought she needed saving? Hahahah... That is quite a good joke.</p>`,
+        }, {
+            title: `About Belial: Comrades`,
+            content: `<p>We are comrades, just like you and I. When I joined the Fatui, She was already The Secretary and let me tell you, I don't know how she does it but every appointment with the different Harbingers, every paperwork... She is always on time. Over the years one thing lead to another and I am proud to call her a friend I can rely on. My siblings and even my parents really like her visits because she always has a different story to tell. It doesn't help that she can bring Capitano to sometimes spar with me.</p>`,
+        }, {
+            title: `About Belial: Admirer`,
+            content: `<p>I suppose you could say I admire her. Capable hands and hard work deserves respect, don't you think so?</p><p>And as for how close we actually are... I think you're going to have to befriend her and see if she'll tell you. How much information they'll decide to divulge to you, that'll be my answer too, heh.</p>`,
+        }]
+    },
+    
     zhongrin: {
         name: "Meirin",
         foName: "zhongli",
