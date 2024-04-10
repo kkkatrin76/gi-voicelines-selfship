@@ -84,7 +84,8 @@ button {
 .c1 #vl-list {
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
-    max-height: 90%;
+    /* max-height: 90%; */
+    height: 100%;
 }
 
 .c1 #vl-list .vl-title-outer {
