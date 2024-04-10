@@ -186,15 +186,9 @@ window.addEventListener(orientationEvent, function() {
             alertOrientation();
         }
     }
-
-    var video = document.getElementById('video-bg');
-    video.play();
 }, false);
 
 function alertOrientation() {
     alert("Attention! Page best viewed in landscape orientation and optimized for PC 2560 × 1600 and iPhone 13 Pro screens.")
     warned = true;
-    
-    var video = document.getElementById('video-bg');
-    video.play();
 }
