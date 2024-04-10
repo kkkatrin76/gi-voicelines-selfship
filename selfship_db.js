@@ -260,7 +260,7 @@ const db = {
             title: `About Mochi: Nomnom?`,
             content: `<p>Before you askー No, you can't eat her.</p><p>.... Paimon, wipe your drool. I was specifically informing you.</p>`,
         }, {
-            title: `About Mochi: First Meeting`,
+            title: `About Mochi: Surprise`,
             content: `<p>Mochi...? Ah, <i>Mochi</i>. She's my lover—so to speak, why do you ask? Heh. You're surprised? I find it very surprising as well. What do I mean by that? Well, I'd say you better ask her about our first meeting rather than asking me. She always says that I paint the occasion from a much better perspective than how it was. I don't believe her, though. It was a normal meeting on my end, albeit a little interesting.</p>`,
         }, {
             title: `About Mochi: Our Relationship`,
