@@ -266,7 +266,7 @@ const db = {
             title: `About Mochi: Our Relationship`,
             content: `<p>What of it? It's doing well for both me and her. We don't need the presence of another person entering our relationship, so back off if you have that idea in mind; not that she or I would accept anybody else anyway.</p>`,
         }, {
-            title: `About Mochi: Love? Hate?`,
+            title: `About Mochi: Love...?`,
             content: `<p>Hm? Ah, you overheard her, I suppose. Yes, she seems inclined to do that sometimes. A nonsensical behaviour, but one that I find endearing nonetheless.</p><p>The next time you hear her say <i>'Alhaitham, I hate you'</i> or <i>'Alhaitham is a dumdum'</i>, just nod along and let her prattle to her heart's content. It's amusing to watch her cheeks puff up just like her name.</p>`,
         }]
     },
